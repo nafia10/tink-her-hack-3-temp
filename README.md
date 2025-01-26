@@ -52,7 +52,7 @@ For Software:
 ![[Screenshot2](https://github.com/nafia10/tink-her-hack-3-temp/blob/main/Screenshot%20(2).png)](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3][(Add screenshot 3 here with proper name]
 *Add caption explaining what this shows*
 
 # Diagrams
