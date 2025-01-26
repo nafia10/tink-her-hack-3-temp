@@ -46,10 +46,10 @@ For Software:
 ### Project Documentation
 For Software:
 
-# shttps://github.com/nafia10/tink-her-hack-3-temp/blob/main/Screenshot%20(1).png (Add at least(Add screenshot 1 here with proper name)
+#(Add at least(Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![[Screenshot2](https://github.com/nafia10/tink-her-hack-3-temp/blob/main/Screenshot%20(2).png)](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
 
 ![Screenshot3](Add screenshot 3 here with proper name)
