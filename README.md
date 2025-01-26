@@ -1,12 +1,12 @@
-# [Project Name] 🎯
+# [Ayur Veda] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [nafia]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
+- Member 1: [Nafia P M] - [Sree narayana gurukulam college of engineering,Kolenchery]
 - Member 2: [Name] - [College]
 - Member 3: [Name] - [College]
 
@@ -14,18 +14,18 @@
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[platform for selling ayurvedic products and for ayur doctor consultations.Consultations can be made online and offline.Shops nearby can also be searched here.]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+[recently people have increased using ayurvedic products and medicines and also consulting ayurvedic doctors.So there should be a platform for these]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[by developing a platform for selling these products and also for online and offline doctor consultatons.this could benefit small entrepreneurs also]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [HTML,css]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
@@ -46,8 +46,7 @@ For Software:
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+# Screenshots (Add at least(Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
