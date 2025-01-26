@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="description" content="Buy ayurvedic products and consult expert doctors online and offline.">
+    <title>Veda Aura</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  </head>
+  <body>
+      <header>
+        <h1>Veda Aura</h1>
+        <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#consultations">Consultations</a></li>
+              <li><a href="#shops">Shops Near Me</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+    
+      <section id="home">
+          <h2>Welcome to Veda Aura</h2>
+          <p>Your one-stop destination for authentic ayurvedic products and ayur doctor consultations.</p>
+      </section>
+  
+      <section id="products">
+          <h2>Our Products</h2>
+          <div class="product-category">
+              <h3>Skincare</h3>
+              <p>Explore our range of natural skincare products.</p>
+          </div>  
+          <div class="product-category">
+              <h3>Hair Care</h3>
+              <p>Discover ayurvedic solutions for healthy hair.</p>
+          </div>
+          <div class="product-category">
+              <h3>Herbal supplements</h3>
+              <p>Boost your health with our herbal supplements.</p>
+          </div>
+          <div class="product-category">
+            <h3>Ayurvedic medicines</h3>
+            <p>Explore a widerange of ayurvedic medicine products.</p>
+          </div>
+          <div class="product-category">
+            <h3>Spices</h3>
+            <p>Explore the magic of spices</p>
+          </div>
+      </section>
+      
+      <section id="consultations">
+          <h2>Doctor Consultations</h2>
+                                                           
+          <h3>Online Consultations</h3>
+          <form>
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <input type="text" name="phone"placeholder="Your Phone" required>
+              <input type="date" name="date" required>
+              <textarea name="message" placeholder="Describe your issue"></textarea>
+              <button type="submit">Book Online Consultation</button>
+           </form>
+
+           <h3>Payment for Consultation</h3>
+           <button onclick="makePayment()">Pay 200</button>
+           
+           <h3>Offline Consultation Registration</h3>
+           <form>
+               <input type="text" name="name" placeholder="Your Name" required>
+               <input type="email" name="email" placeholder="Your Email" required>
+               <input type="text" name="phone"placeholder="Your Phone" required>
+               <input type="text" name="location" placeholder="preferred location" required>
+               <input type="date" name="date" required>
+               <button type="submit" onclick="alert(Offline consultation registration submitted!')">Register for Offline consultation</button>
+           </form>
+       </section> 
+       
+       
+       <section id="shops">
+           <h2>Find ayurvedic Shops Near You</h2>
+           <input type="text" id="location" placeholder="Enter your location">
+           <button onclick="alert('Searching for shops near your location...')">Search</button>
+           <div id="shopResults">Shops will be listed here...</div>
+
+           <h3>Register Your Shop</h3>
+           <form>
+               <input type="text" name="shop_name" placeholder="Shop Name" required>
+               <input type="text" name="owner_name" placeholder="Owner Name" required>
+               <input type="email" name="email" placeholder="Email" required>
+               <input type="text" name="phone" placeholder="Phone Number" required>
+               <input type="text" name="address" placeholder="Shop Address" required>
+               <button type="submit">Send</button>
+           </form>
+      </section>
+
+      <section id="contact">
+           <h2>Contact Us</h2>
+           <form>
+               <input type="text" placeholder="Your Name" required>
+               <input type="email" placeholder="Your Email" required>
+               <textarea placeholder="Your Message"></textarea>
+               <button type="submit">Send</button>
+           </form>
+      </section>
+      
+      <footer>
+          <p>&copy; 2025 Ayur Veda. All Rights Reserved</p>
+      </footer>
+
+      <script>
+          function makePayment() {
+              var options = {
+                  "key": "YOUR_RAZORPAY_API_KEY",
+                  "amount":50000,
+                  "currency":"INR",
+                  "name":"Ayur Veda",
+                  "description":"Consultation Fee",
+                  "handler":function (response){
+                      alert('Payment successful! Payment ID:'+ response.razorpay_payment_id);
+                  }
+              };
+              var rzp = new Razorpay(options);
+              rzp.open();
+          }      
+      </script>
+</body>
+</html>
