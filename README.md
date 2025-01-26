@@ -1,4 +1,4 @@
-# [Ayur Veda] 🎯
+# [Veda Aura] 🎯
 
 
 ## Basic Details
